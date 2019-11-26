@@ -1,0 +1,91 @@
+.main1st-wrapper {
+  width: 100vw;
+
+  .main1st-header {
+    position: relative;
+    font-size: 2vw;
+
+    img {
+      margin: 2vw;
+    }
+
+    img:nth-child(1) {
+      width: 40vw;
+    }
+  }
+
+  .main1st-construct {
+    img {
+      width: 100vw;
+    }
+  }
+
+  .main1st-opps {
+    padding: 2vw 8vw;
+    margin: 0 0 -20vw 0;
+
+    strong {
+      color: blue;
+      font-size: 20vw;
+    }
+
+    h1,
+    p {
+      background: pink;
+    }
+
+    h1 {
+      font-size: 5vw;
+    }
+
+    p {
+      font-size: 5vw;
+    }
+  }
+
+  .main1st-other-brands {
+    img {
+      width: 100vw;
+      margin: 0vw 5vw;
+    }
+  }
+}
+
+@media only screen and(min-width: 360px) {
+}
+@media only screen and(min-width: 480px) {
+}
+@media only screen and(min-width: 640px) {
+}
+@media only screen and(min-width: 768px) {
+}
+@media only screen and(min-width: 1024px) {
+  .main1st-wrapper {
+    .main1st-header {
+      width: 50vw;
+
+      img:nth-child(1) {
+        width: 22vw;
+      }
+    }
+
+    .main1st-construct {
+      position: absolute;
+      top: 5vw;
+      right: 2vw;
+
+      img {
+        width: 50vw;
+      }
+    }
+
+    .main1st-opps {
+      strong {
+        font-size: 10vw;
+      }
+      h1 {
+        font-size: 5vw;
+      }
+    }
+  }
+}

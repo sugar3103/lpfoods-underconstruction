@@ -1,15 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Main1st from './components/Main/Main1st';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        
-      </header>
-    </div>
+    <section className="App">
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        <Main1st />
+      
+    </section>
   );
 }
 
