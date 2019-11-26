@@ -1,5 +1,6 @@
 .main1st-wrapper {
   width: 100vw;
+  color: rgb(5, 5, 78);
 
   .main1st-header {
     position: relative;
@@ -25,13 +26,7 @@
     margin: 0 0 -20vw 0;
 
     strong {
-      color: blue;
       font-size: 20vw;
-    }
-
-    h1,
-    p {
-      background: pink;
     }
 
     h1 {
@@ -65,27 +60,50 @@
       width: 50vw;
 
       img:nth-child(1) {
-        width: 22vw;
+        width: 5vw;
+      }
+
+      img:nth-child(3) {
+        width: 20vw;
+        margin: -2vw 0 0 0;
       }
     }
 
     .main1st-construct {
       position: absolute;
       top: 5vw;
-      right: 2vw;
+      right: 3vw;
 
       img {
-        width: 50vw;
+        width: 40vw;
       }
     }
 
     .main1st-opps {
+      width: 40vw;
+      margin: 0 0 0 5vw;
+      font-size: 2vw;
+
       strong {
-        font-size: 10vw;
+        font-size: 2vw;
       }
+
       h1 {
-        font-size: 5vw;
+        font-size: 2vw;
       }
+
+      p {
+        font-size: 2vw;
+      }
+    }
+
+    .main1st-other-brands {
+        // margin: -20vw 0;
+        display: flex;
+
+        img{
+            width: 40vw;
+        }
     }
   }
 }
