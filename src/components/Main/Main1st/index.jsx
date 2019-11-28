@@ -17,7 +17,7 @@ function Main1st() {
           <strong>Oops!</strong>
           <h1>Under Construction</h1>
           <p>
-            We will be back with a better website. Mean while vitis our others
+            We will be back with a better website. Mean while visit our others
             Brands.
           </p>
         </div>
