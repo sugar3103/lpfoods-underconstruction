@@ -1,14 +1,24 @@
-import React from 'react';
-import './App.scss';
-import Main1st from './components/Main/Main1st';
+import React from "react";
+import "./App.scss";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Main1st from "./components/Main/Main1st";
 
 function App() {
+  const reload = () => window.location.reload();
   return (
-    <section className="App">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <Main1st />
-      
-    </section>
+    <>
+      <Router>
+        <Switch>
+          <Route
+            exact
+            path="/"
+            render={propsOfRouter => <Main1st {...propsOfRouter} />}
+          />
+          <Route exact path="/report.html" onEnter={reload} />
+        </Switch>
+      </Router>
+      {/* <img src={logo} className="App-logo" alt="logo" /> */}
+    </>
   );
 }
 
