@@ -30,9 +30,6 @@ function Main1st() {
               <img src="/assets/sautenserve.png" alt="sautenserve" />
             </a>
           </div>
-          <a href="/report.html">
-            Link to Report
-          </a>
         </div>
       </section>
     </>
